@@ -1,0 +1,15 @@
+//
+//  HBAAppDelegate.h
+//  hbaLexico
+//
+//  Created by Dário on 10/09/12.
+//  Copyright (c) 2012 Dário & Jean. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface HBAAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end

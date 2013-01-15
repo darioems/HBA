@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A320F982160119CF004027E9 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F981160119CF004027E9 /* Chapter.m */; };
+		A320F98616011C1E004027E9 /* Vers.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F98516011C1E004027E9 /* Vers.m */; };
+		A3D4581E15FEC08F0020A48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581D15FEC08F0020A48C /* UIKit.framework */; };
+		A3D4582015FEC08F0020A48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581F15FEC08F0020A48C /* Foundation.framework */; };
+		A3D4582215FEC08F0020A48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4582115FEC08F0020A48C /* CoreGraphics.framework */; };
+		A3D4582815FEC08F0020A48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D4582615FEC08F0020A48C /* InfoPlist.strings */; };
+		A3D4582A15FEC08F0020A48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4582915FEC08F0020A48C /* main.m */; };
+		A3D4582E15FEC08F0020A48C /* HBAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4582D15FEC08F0020A48C /* HBAAppDelegate.m */; };
+		A3D4583115FEC08F0020A48C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D4582F15FEC08F0020A48C /* MainStoryboard.storyboard */; };
+		A3D4583415FEC08F0020A48C /* HBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4583315FEC08F0020A48C /* HBAViewController.m */; };
+		A3D4583C15FEC1230020A48C /* HBATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4583B15FEC1230020A48C /* HBATableViewController.m */; };
+		A3D4584A15FEC35E0020A48C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4584915FEC35E0020A48C /* Book.m */; };
+		A3D4584D15FEC3850020A48C /* BookDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4584C15FEC3850020A48C /* BookDAO.m */; };
+		A3D4584F15FEC3A60020A48C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4584E15FEC3A60020A48C /* libsqlite3.0.dylib */; };
+		A3D4585215FEC7140020A48C /* Conexao.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D4585115FEC7140020A48C /* Conexao.m */; };
+		A3D4585415FEC73D0020A48C /* BibleHebrew.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A3D4585315FEC73D0020A48C /* BibleHebrew.sqlite */; };
+		A3E7861D16012AB300F2345E /* ChapterDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E7861C16012AB300F2345E /* ChapterDAO.m */; };
+		A3E7862016012E7500F2345E /* VersDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E7861F16012E7500F2345E /* VersDAO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A320F980160119CF004027E9 /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		A320F981160119CF004027E9 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
+		A320F98416011C1E004027E9 /* Vers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vers.h; sourceTree = "<group>"; };
+		A320F98516011C1E004027E9 /* Vers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vers.m; sourceTree = "<group>"; };
+		A3D4581915FEC08F0020A48C /* hbaLexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hbaLexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D4581D15FEC08F0020A48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3D4581F15FEC08F0020A48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3D4582115FEC08F0020A48C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3D4582515FEC08F0020A48C /* hbaLexico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hbaLexico-Info.plist"; sourceTree = "<group>"; };
+		A3D4582715FEC08F0020A48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3D4582915FEC08F0020A48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3D4582B15FEC08F0020A48C /* hbaLexico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hbaLexico-Prefix.pch"; sourceTree = "<group>"; };
+		A3D4582C15FEC08F0020A48C /* HBAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAAppDelegate.h; sourceTree = "<group>"; };
+		A3D4582D15FEC08F0020A48C /* HBAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAAppDelegate.m; sourceTree = "<group>"; };
+		A3D4583015FEC08F0020A48C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3D4583215FEC08F0020A48C /* HBAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAViewController.h; sourceTree = "<group>"; };
+		A3D4583315FEC08F0020A48C /* HBAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAViewController.m; sourceTree = "<group>"; };
+		A3D4583A15FEC1230020A48C /* HBATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBATableViewController.h; sourceTree = "<group>"; };
+		A3D4583B15FEC1230020A48C /* HBATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBATableViewController.m; sourceTree = "<group>"; };
+		A3D4584815FEC35E0020A48C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A3D4584915FEC35E0020A48C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		A3D4584B15FEC3850020A48C /* BookDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDAO.h; sourceTree = "<group>"; };
+		A3D4584C15FEC3850020A48C /* BookDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDAO.m; sourceTree = "<group>"; };
+		A3D4584E15FEC3A60020A48C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A3D4585015FEC7140020A48C /* Conexao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conexao.h; sourceTree = "<group>"; };
+		A3D4585115FEC7140020A48C /* Conexao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conexao.m; sourceTree = "<group>"; };
+		A3D4585315FEC73D0020A48C /* BibleHebrew.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BibleHebrew.sqlite; sourceTree = "<group>"; };
+		A3E7861B16012AB300F2345E /* ChapterDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterDAO.h; sourceTree = "<group>"; };
+		A3E7861C16012AB300F2345E /* ChapterDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterDAO.m; sourceTree = "<group>"; };
+		A3E7861E16012E7500F2345E /* VersDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersDAO.h; sourceTree = "<group>"; };
+		A3E7861F16012E7500F2345E /* VersDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersDAO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D4581615FEC08F0020A48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4584F15FEC3A60020A48C /* libsqlite3.0.dylib in Frameworks */,
+				A3D4581E15FEC08F0020A48C /* UIKit.framework in Frameworks */,
+				A3D4582015FEC08F0020A48C /* Foundation.framework in Frameworks */,
+				A3D4582215FEC08F0020A48C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D4580E15FEC08F0020A48C = {
+			isa = PBXGroup;
+			children = (
+				A3D4584E15FEC3A60020A48C /* libsqlite3.0.dylib */,
+				A3D4582315FEC08F0020A48C /* hbaLexico */,
+				A3D4581C15FEC08F0020A48C /* Frameworks */,
+				A3D4581A15FEC08F0020A48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D4581A15FEC08F0020A48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4581915FEC08F0020A48C /* hbaLexico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D4581C15FEC08F0020A48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4581D15FEC08F0020A48C /* UIKit.framework */,
+				A3D4581F15FEC08F0020A48C /* Foundation.framework */,
+				A3D4582115FEC08F0020A48C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3D4582315FEC08F0020A48C /* hbaLexico */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4584715FEC3010020A48C /* DAO */,
+				A3D4583E15FEC1340020A48C /* Views */,
+				A3D4583D15FEC12D0020A48C /* Model */,
+				A3D4582415FEC08F0020A48C /* Supporting Files */,
+			);
+			path = hbaLexico;
+			sourceTree = "<group>";
+		};
+		A3D4582415FEC08F0020A48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4582515FEC08F0020A48C /* hbaLexico-Info.plist */,
+				A3D4582615FEC08F0020A48C /* InfoPlist.strings */,
+				A3D4582915FEC08F0020A48C /* main.m */,
+				A3D4582B15FEC08F0020A48C /* hbaLexico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D4583D15FEC12D0020A48C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4584815FEC35E0020A48C /* Book.h */,
+				A3D4584915FEC35E0020A48C /* Book.m */,
+				A320F980160119CF004027E9 /* Chapter.h */,
+				A320F981160119CF004027E9 /* Chapter.m */,
+				A320F98416011C1E004027E9 /* Vers.h */,
+				A320F98516011C1E004027E9 /* Vers.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A3D4583E15FEC1340020A48C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4583A15FEC1230020A48C /* HBATableViewController.h */,
+				A3D4583B15FEC1230020A48C /* HBATableViewController.m */,
+				A3D4582C15FEC08F0020A48C /* HBAAppDelegate.h */,
+				A3D4582D15FEC08F0020A48C /* HBAAppDelegate.m */,
+				A3D4582F15FEC08F0020A48C /* MainStoryboard.storyboard */,
+				A3D4583215FEC08F0020A48C /* HBAViewController.h */,
+				A3D4583315FEC08F0020A48C /* HBAViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A3D4584715FEC3010020A48C /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4584B15FEC3850020A48C /* BookDAO.h */,
+				A3D4584C15FEC3850020A48C /* BookDAO.m */,
+				A3D4585315FEC73D0020A48C /* BibleHebrew.sqlite */,
+				A3D4585015FEC7140020A48C /* Conexao.h */,
+				A3D4585115FEC7140020A48C /* Conexao.m */,
+				A3E7861B16012AB300F2345E /* ChapterDAO.h */,
+				A3E7861C16012AB300F2345E /* ChapterDAO.m */,
+				A3E7861E16012E7500F2345E /* VersDAO.h */,
+				A3E7861F16012E7500F2345E /* VersDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D4581815FEC08F0020A48C /* hbaLexico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4583715FEC08F0020A48C /* Build configuration list for PBXNativeTarget "hbaLexico" */;
+			buildPhases = (
+				A3D4581515FEC08F0020A48C /* Sources */,
+				A3D4581615FEC08F0020A48C /* Frameworks */,
+				A3D4581715FEC08F0020A48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hbaLexico;
+			productName = hbaLexico;
+			productReference = A3D4581915FEC08F0020A48C /* hbaLexico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D4581015FEC08F0020A48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HBA;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dário & Jean";
+			};
+			buildConfigurationList = A3D4581315FEC08F0020A48C /* Build configuration list for PBXProject "hbaLexico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3D4580E15FEC08F0020A48C;
+			productRefGroup = A3D4581A15FEC08F0020A48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D4581815FEC08F0020A48C /* hbaLexico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D4581715FEC08F0020A48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4582815FEC08F0020A48C /* InfoPlist.strings in Resources */,
+				A3D4583115FEC08F0020A48C /* MainStoryboard.storyboard in Resources */,
+				A3D4585415FEC73D0020A48C /* BibleHebrew.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D4581515FEC08F0020A48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4582A15FEC08F0020A48C /* main.m in Sources */,
+				A3D4582E15FEC08F0020A48C /* HBAAppDelegate.m in Sources */,
+				A3D4583415FEC08F0020A48C /* HBAViewController.m in Sources */,
+				A3D4583C15FEC1230020A48C /* HBATableViewController.m in Sources */,
+				A3D4584A15FEC35E0020A48C /* Book.m in Sources */,
+				A3D4584D15FEC3850020A48C /* BookDAO.m in Sources */,
+				A3D4585215FEC7140020A48C /* Conexao.m in Sources */,
+				A320F982160119CF004027E9 /* Chapter.m in Sources */,
+				A320F98616011C1E004027E9 /* Vers.m in Sources */,
+				A3E7861D16012AB300F2345E /* ChapterDAO.m in Sources */,
+				A3E7862016012E7500F2345E /* VersDAO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3D4582615FEC08F0020A48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D4582715FEC08F0020A48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3D4582F15FEC08F0020A48C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D4583015FEC08F0020A48C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D4583515FEC08F0020A48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3D4583615FEC08F0020A48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D4583815FEC08F0020A48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hbaLexico/hbaLexico-Prefix.pch";
+				INFOPLIST_FILE = "hbaLexico/hbaLexico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3D4583915FEC08F0020A48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hbaLexico/hbaLexico-Prefix.pch";
+				INFOPLIST_FILE = "hbaLexico/hbaLexico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D4581315FEC08F0020A48C /* Build configuration list for PBXProject "hbaLexico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4583515FEC08F0020A48C /* Debug */,
+				A3D4583615FEC08F0020A48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D4583715FEC08F0020A48C /* Build configuration list for PBXNativeTarget "hbaLexico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4583815FEC08F0020A48C /* Debug */,
+				A3D4583915FEC08F0020A48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D4581015FEC08F0020A48C /* Project object */;
+}
