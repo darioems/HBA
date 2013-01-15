@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A320F982160119CF004027E9 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F981160119CF004027E9 /* Chapter.m */; };
 		A320F98616011C1E004027E9 /* Vers.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F98516011C1E004027E9 /* Vers.m */; };
+		A3CEB7E016A5848A00DE6DC1 /* teste.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3CEB7DF16A5848A00DE6DC1 /* teste.txt */; };
 		A3D4581E15FEC08F0020A48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581D15FEC08F0020A48C /* UIKit.framework */; };
 		A3D4582015FEC08F0020A48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581F15FEC08F0020A48C /* Foundation.framework */; };
 		A3D4582215FEC08F0020A48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4582115FEC08F0020A48C /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 		A320F981160119CF004027E9 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
 		A320F98416011C1E004027E9 /* Vers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vers.h; sourceTree = "<group>"; };
 		A320F98516011C1E004027E9 /* Vers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vers.m; sourceTree = "<group>"; };
+		A3CEB7DF16A5848A00DE6DC1 /* teste.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teste.txt; sourceTree = "<group>"; };
 		A3D4581915FEC08F0020A48C /* hbaLexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hbaLexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D4581D15FEC08F0020A48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D4581F15FEC08F0020A48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +81,7 @@
 		A3D4580E15FEC08F0020A48C = {
 			isa = PBXGroup;
 			children = (
+				A3CEB7DF16A5848A00DE6DC1 /* teste.txt */,
 				A3D4584E15FEC3A60020A48C /* libsqlite3.0.dylib */,
 				A3D4582315FEC08F0020A48C /* hbaLexico */,
 				A3D4581C15FEC08F0020A48C /* Frameworks */,
@@ -224,6 +227,7 @@
 				A3D4582815FEC08F0020A48C /* InfoPlist.strings in Resources */,
 				A3D4583115FEC08F0020A48C /* MainStoryboard.storyboard in Resources */,
 				A3D4585415FEC73D0020A48C /* BibleHebrew.sqlite in Resources */,
+				A3CEB7E016A5848A00DE6DC1 /* teste.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
