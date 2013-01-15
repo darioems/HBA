@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9A4D9116A6175E0060558D /* teste.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A4D9016A6175E0060558D /* teste.txt */; };
 		A320F982160119CF004027E9 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F981160119CF004027E9 /* Chapter.m */; };
 		A320F98616011C1E004027E9 /* Vers.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F98516011C1E004027E9 /* Vers.m */; };
 		A3D4581E15FEC08F0020A48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581D15FEC08F0020A48C /* UIKit.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C9A4D9016A6175E0060558D /* teste.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teste.txt; sourceTree = "<group>"; };
 		A320F980160119CF004027E9 /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
 		A320F981160119CF004027E9 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
 		A320F98416011C1E004027E9 /* Vers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vers.h; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		A3D4580E15FEC08F0020A48C = {
 			isa = PBXGroup;
 			children = (
+				4C9A4D9016A6175E0060558D /* teste.txt */,
 				A3D4584E15FEC3A60020A48C /* libsqlite3.0.dylib */,
 				A3D4582315FEC08F0020A48C /* hbaLexico */,
 				A3D4581C15FEC08F0020A48C /* Frameworks */,
@@ -224,6 +227,7 @@
 				A3D4582815FEC08F0020A48C /* InfoPlist.strings in Resources */,
 				A3D4583115FEC08F0020A48C /* MainStoryboard.storyboard in Resources */,
 				A3D4585415FEC73D0020A48C /* BibleHebrew.sqlite in Resources */,
+				4C9A4D9116A6175E0060558D /* teste.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
