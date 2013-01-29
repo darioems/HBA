@@ -10,6 +10,15 @@
 		4C9A4D9116A6175E0060558D /* teste.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A4D9016A6175E0060558D /* teste.txt */; };
 		A320F982160119CF004027E9 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F981160119CF004027E9 /* Chapter.m */; };
 		A320F98616011C1E004027E9 /* Vers.m in Sources */ = {isa = PBXBuildFile; fileRef = A320F98516011C1E004027E9 /* Vers.m */; };
+		A3628A5B16B746690029FFA4 /* wlc_book.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A5A16B746690029FFA4 /* wlc_book.m */; };
+		A3628A5E16B7472E0029FFA4 /* wlc_verse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A5D16B7472E0029FFA4 /* wlc_verse.m */; };
+		A3628A6116B747F10029FFA4 /* wlc_chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6016B747F10029FFA4 /* wlc_chapter.m */; };
+		A3628A6416B749120029FFA4 /* lex_prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6316B749120029FFA4 /* lex_prefix.m */; };
+		A3628A6716B74A260029FFA4 /* lex_sufix.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6616B74A260029FFA4 /* lex_sufix.m */; };
+		A3628A6A16B74AB60029FFA4 /* lex_word.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6916B74AB60029FFA4 /* lex_word.m */; };
+		A3628A6D16B74BA00029FFA4 /* lex_prefix_n_var.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6C16B74BA00029FFA4 /* lex_prefix_n_var.m */; };
+		A3628A7016B74D070029FFA4 /* lex_sufix_n_var.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A6F16B74D060029FFA4 /* lex_sufix_n_var.m */; };
+		A3628A7316B74EC40029FFA4 /* lex_word_reference_wlc.m in Sources */ = {isa = PBXBuildFile; fileRef = A3628A7216B74EC40029FFA4 /* lex_word_reference_wlc.m */; };
 		A3D4581E15FEC08F0020A48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581D15FEC08F0020A48C /* UIKit.framework */; };
 		A3D4582015FEC08F0020A48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4581F15FEC08F0020A48C /* Foundation.framework */; };
 		A3D4582215FEC08F0020A48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D4582115FEC08F0020A48C /* CoreGraphics.framework */; };
@@ -34,6 +43,25 @@
 		A320F981160119CF004027E9 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
 		A320F98416011C1E004027E9 /* Vers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vers.h; sourceTree = "<group>"; };
 		A320F98516011C1E004027E9 /* Vers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vers.m; sourceTree = "<group>"; };
+		A3628A5716B73F700029FFA4 /* lhb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = lhb.sqlite; sourceTree = "<group>"; };
+		A3628A5916B746690029FFA4 /* wlc_book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wlc_book.h; sourceTree = "<group>"; };
+		A3628A5A16B746690029FFA4 /* wlc_book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wlc_book.m; sourceTree = "<group>"; };
+		A3628A5C16B7472E0029FFA4 /* wlc_verse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wlc_verse.h; sourceTree = "<group>"; };
+		A3628A5D16B7472E0029FFA4 /* wlc_verse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wlc_verse.m; sourceTree = "<group>"; };
+		A3628A5F16B747F10029FFA4 /* wlc_chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wlc_chapter.h; sourceTree = "<group>"; };
+		A3628A6016B747F10029FFA4 /* wlc_chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wlc_chapter.m; sourceTree = "<group>"; };
+		A3628A6216B749120029FFA4 /* lex_prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_prefix.h; sourceTree = "<group>"; };
+		A3628A6316B749120029FFA4 /* lex_prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_prefix.m; sourceTree = "<group>"; };
+		A3628A6516B74A260029FFA4 /* lex_sufix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_sufix.h; sourceTree = "<group>"; };
+		A3628A6616B74A260029FFA4 /* lex_sufix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_sufix.m; sourceTree = "<group>"; };
+		A3628A6816B74AB60029FFA4 /* lex_word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_word.h; sourceTree = "<group>"; };
+		A3628A6916B74AB60029FFA4 /* lex_word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_word.m; sourceTree = "<group>"; };
+		A3628A6B16B74BA00029FFA4 /* lex_prefix_n_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_prefix_n_var.h; sourceTree = "<group>"; };
+		A3628A6C16B74BA00029FFA4 /* lex_prefix_n_var.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_prefix_n_var.m; sourceTree = "<group>"; };
+		A3628A6E16B74D060029FFA4 /* lex_sufix_n_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_sufix_n_var.h; sourceTree = "<group>"; };
+		A3628A6F16B74D060029FFA4 /* lex_sufix_n_var.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_sufix_n_var.m; sourceTree = "<group>"; };
+		A3628A7116B74EC40029FFA4 /* lex_word_reference_wlc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex_word_reference_wlc.h; sourceTree = "<group>"; };
+		A3628A7216B74EC40029FFA4 /* lex_word_reference_wlc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lex_word_reference_wlc.m; sourceTree = "<group>"; };
 		A3D4581915FEC08F0020A48C /* hbaLexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hbaLexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D4581D15FEC08F0020A48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D4581F15FEC08F0020A48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -138,6 +166,24 @@
 				A320F981160119CF004027E9 /* Chapter.m */,
 				A320F98416011C1E004027E9 /* Vers.h */,
 				A320F98516011C1E004027E9 /* Vers.m */,
+				A3628A5916B746690029FFA4 /* wlc_book.h */,
+				A3628A5A16B746690029FFA4 /* wlc_book.m */,
+				A3628A5C16B7472E0029FFA4 /* wlc_verse.h */,
+				A3628A5D16B7472E0029FFA4 /* wlc_verse.m */,
+				A3628A5F16B747F10029FFA4 /* wlc_chapter.h */,
+				A3628A6016B747F10029FFA4 /* wlc_chapter.m */,
+				A3628A6216B749120029FFA4 /* lex_prefix.h */,
+				A3628A6316B749120029FFA4 /* lex_prefix.m */,
+				A3628A6516B74A260029FFA4 /* lex_sufix.h */,
+				A3628A6616B74A260029FFA4 /* lex_sufix.m */,
+				A3628A6816B74AB60029FFA4 /* lex_word.h */,
+				A3628A6916B74AB60029FFA4 /* lex_word.m */,
+				A3628A6B16B74BA00029FFA4 /* lex_prefix_n_var.h */,
+				A3628A6C16B74BA00029FFA4 /* lex_prefix_n_var.m */,
+				A3628A6E16B74D060029FFA4 /* lex_sufix_n_var.h */,
+				A3628A6F16B74D060029FFA4 /* lex_sufix_n_var.m */,
+				A3628A7116B74EC40029FFA4 /* lex_word_reference_wlc.h */,
+				A3628A7216B74EC40029FFA4 /* lex_word_reference_wlc.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -159,6 +205,7 @@
 		A3D4584715FEC3010020A48C /* DAO */ = {
 			isa = PBXGroup;
 			children = (
+				A3628A5716B73F700029FFA4 /* lhb.sqlite */,
 				A3D4584B15FEC3850020A48C /* BookDAO.h */,
 				A3D4584C15FEC3850020A48C /* BookDAO.m */,
 				A3D4585315FEC73D0020A48C /* BibleHebrew.sqlite */,
@@ -249,6 +296,15 @@
 				A320F98616011C1E004027E9 /* Vers.m in Sources */,
 				A3E7861D16012AB300F2345E /* ChapterDAO.m in Sources */,
 				A3E7862016012E7500F2345E /* VersDAO.m in Sources */,
+				A3628A5B16B746690029FFA4 /* wlc_book.m in Sources */,
+				A3628A5E16B7472E0029FFA4 /* wlc_verse.m in Sources */,
+				A3628A6116B747F10029FFA4 /* wlc_chapter.m in Sources */,
+				A3628A6416B749120029FFA4 /* lex_prefix.m in Sources */,
+				A3628A6716B74A260029FFA4 /* lex_sufix.m in Sources */,
+				A3628A6A16B74AB60029FFA4 /* lex_word.m in Sources */,
+				A3628A6D16B74BA00029FFA4 /* lex_prefix_n_var.m in Sources */,
+				A3628A7016B74D070029FFA4 /* lex_sufix_n_var.m in Sources */,
+				A3628A7316B74EC40029FFA4 /* lex_word_reference_wlc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

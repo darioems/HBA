@@ -16,6 +16,7 @@
 @synthesize bName;
 @synthesize bsName;
 
+
 /*+(NSMutableArray *) getAllBooks {
     NSString *qSql = [NSString stringWithFormat:@"SELECT * FROM BIBLEBOOKS"];
     sqlite3_stmt *statement;

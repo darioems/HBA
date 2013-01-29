@@ -14,12 +14,12 @@
     int bNumber;
     NSString *bName;
     NSString *bsName;
-    
 }
 //+(NSMutableArray *) getAllBooks;
 
 @property int bNumber;
 @property (nonatomic, retain) NSString * bName;
 @property (nonatomic, retain) NSString * bsName;
+
 
 @end
